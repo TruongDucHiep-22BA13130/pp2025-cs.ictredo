@@ -73,3 +73,12 @@ class StudentMarkManagement:
             else:  
                 print(f"{student.name} (ID: {student.student_id}): No marks recorded")  
 
+management_system = StudentMarkManagement()
+
+
+management_system.input_number_of_students()
+management_system.input_number_of_courses()
+management_system.select_course_and_input_marks()
+
+management_system.list_students()
+management_system.show_student_marks()
